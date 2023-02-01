@@ -1,0 +1,30 @@
+body{
+    background-size: cover;
+}
+
+h3
+{
+    font-size: 25px-!important;
+}
+
+
+.btn-succes:hover
+{
+    background-color: aquamarine;
+}
+
+
+
+
+canvas{
+animation-name: aldox;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes aldox{
+
+    from{box-shadow: 1px 1px 39px aquamarine;}
+    to{box-shadow: 1px 1px 39px rgb(68, 0, 128);}
+}
